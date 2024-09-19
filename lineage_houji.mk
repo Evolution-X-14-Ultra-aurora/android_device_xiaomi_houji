@@ -22,7 +22,7 @@ PRODUCT_MODEL := 23127PN0CG
 PRODUCT_MANUFACTURER := xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="houji_global-user 14 UKQ1.230804.001 V816.0.6.0.UNCMIXM release-keys"
+    BuildDesc=$(call normalize-path-list, "houji_global-user 14 UKQ1.230804.001 V816.0.6.0.UNCMIXM release-keys")
 
 BUILD_FINGERPRINT := Xiaomi/houji_global/houji:14/UKQ1.230804.001/V816.0.6.0.UNCMIXM:user/release-keys
 
